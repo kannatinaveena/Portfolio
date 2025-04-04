@@ -38,16 +38,22 @@ const Navbar = () => {
                     {menu==="about me" ? <img src={underline} alt=''/> : <></>}
                 </li>
                 <li>
-                    <AnchorLink className='anchor-link' offset={50} href='#work'>
-                        <p onClick={()=>setMenu("work")}>Portfolio</p>
+                    <AnchorLink className='anchor-link' offset={50} href='#projects'>
+                        <p onClick={()=>setMenu("projects")}>Projects</p>
                     </AnchorLink>
-                    {menu==="work" ? <img src={underline} alt=''/> : <></>}
+                    {menu === "projects" && <img src={underline} alt='' />}
                 </li>
                 <li>
                     <AnchorLink className='anchor-link' offset={50} href='#contact'>
                         <p onClick={()=>setMenu("contact")}>Contact</p>
                     </AnchorLink>
                     {menu==="contact" ? <img src={underline} alt=''/> : <></>}
+                </li>
+                <li>
+                    <AnchorLink className='anchor-link' offset={50} href='#skills'>
+                        <p onClick={()=>setMenu("skills")}>Skills</p>
+                    </AnchorLink>
+                    {menu==="skills" ? <img src={underline} alt=''/> : <></>}
                 </li>
             </ul>
             

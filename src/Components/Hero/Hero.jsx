@@ -25,7 +25,7 @@ const Hero = ({ setMenu }) => {
                         <p onClick={() => setMenu("contact")}>Connect with me</p>
                     </AnchorLink>
                 </div>
-                <div className="hero-resume" onClick={handleResumeClick}>My resume</div>
+                <div className="hero-resume" onClick={handleResumeClick}>My Resume</div>
             </div>
         </div>
     );
