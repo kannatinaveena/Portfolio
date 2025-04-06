@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 import images from "../../assets/images.jpg";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import resumePDF from "../../assets/resume.pdf"; // Import your resume PDF file
+import resumePDF from "../../assets/Resume 563.pdf"; // Import your resume PDF file
 
 const Hero = ({ setMenu }) => {
     const handleResumeClick = () => {
