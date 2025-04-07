@@ -21,18 +21,20 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .hero p {
     width: 50%;
     text-align: center;
+    font-size: 25px;
 }
 
 .hero-action {
     display: flex;
     align-items: center;
     gap: 25px;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 500;
     margin-bottom: 50px;
 }
@@ -45,7 +47,7 @@
     padding: 20px 50px; /* Ensure both have the same padding */
     width: 220px; /* Set a fixed width for both buttons */
     height: 60px; /* Set a fixed height */
-    font-size: 20px; /* Ensure text size is the same */
+    font-size: 25px; /* Ensure text size is the same */
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
@@ -61,7 +63,7 @@
 
 .hero-resume {
     border: 2px solid #FFF;
-    background: linear-gradient(264deg, #98D2C0 -5.09%, #205781 106%);;
+    background: linear-gradient(264deg, #98D2C0 -5.09%, #205781 106%);
     color: white;
 }
 
@@ -96,7 +98,7 @@
     
     .hero-action {
         gap: 16px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         margin-bottom: 50px;
     }

@@ -15,14 +15,14 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #98D2C0 0.36%, #205781 102.36%);
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -46,7 +46,9 @@
 .anchor-link {
     text-decoration: none;
     color: white;
+    
 }
+
 
 .nav-mob-close {
     display: none;

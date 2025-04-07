@@ -1,20 +1,20 @@
 import React from "react";
-import "./Skills.css"; // Import CSS
+import "./Skills.css"; // Make sure you have the related CSS
 import theme_pattern from "../../assets/theme_pattern.svg";
-import arrow_icon from "../../assets/arrow_icon.svg";
 import { FaReact, FaNodeJs, FaPython, FaJava, FaDatabase } from "react-icons/fa";
-import { SiMongodb, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiMongodb, SiJavascript, SiHtml5, SiCss3, SiC, SiFigma } from "react-icons/si";
 
 const skills = [
   { name: "React", icon: <FaReact /> },
-  { name: "Node.js", icon: <FaNodeJs /> },
   { name: "Python", icon: <FaPython /> },
   { name: "Java", icon: <FaJava /> },
-  { name: "MongoDB", icon: <SiMongodb /> },
+
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "HTML", icon: <SiHtml5 /> },
   { name: "CSS", icon: <SiCss3 /> },
   { name: "SQL", icon: <FaDatabase /> },
+  { name: "C Programming", icon: <SiC /> },
+  { name: "UI/UX", icon: <SiFigma /> },
 ];
 
 const Skills = () => {
@@ -33,7 +33,6 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      
     </div>
   );
 };
