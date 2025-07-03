@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import LOGO1 from '../../assets/LOGO1.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { SiLeetcode, SiCodechef ,SiHackerrank} from 'react-icons/si';
+import { SiLeetcode, SiCodechef, SiHackerrank, SiHackerearth } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -26,16 +26,19 @@ const Footer = () => {
             <FaLinkedin size={50} />
           </a>
           <a href="https://github.com/kannatinaveena" target="_blank" rel="noopener noreferrer">
-            <FaGithub size={50}  />
+            <FaGithub size={50} />
           </a>
           <a href="https://www.codechef.com/users/kannatinaveena" target="_blank" rel="noopener noreferrer">
-            <SiCodechef size={50}  />
+            <SiCodechef size={50} />
           </a>
           <a href="https://leetcode.com/u/NAVEENAKANNATI/" target="_blank" rel="noopener noreferrer">
             <SiLeetcode size={50} />
           </a>
           <a href="https://www.hackerrank.com/profile/naveena_kannati" target="_blank" rel="noopener noreferrer">
-            < SiHackerrank size={50} />
+            <SiHackerrank size={50} />
+          </a>
+          <a href="https://www.hackerearth.com/@naveena.kannati" target="_blank" rel="noopener noreferrer">
+            <SiHackerearth size={50} />
           </a>
         </div>
       </div>

@@ -4,28 +4,22 @@ import theme_pattern from '../../assets/theme_pattern.svg';
 
 const certifications = [
   {
-    name: "Python for Everybody",
-    platform: "NPTEL",
-    date: "Aug 2023",
-    link: "https://drive.google.com/file/d/19ICiCQ4vdiyDymcNsbGrBj621OuoxufR/view"
+    name: "Machine Learning",
+    platform: "SkillDzire",
+    date: "Dec 2024",
+    link: "https://drive.google.com/file/d/1Hw1CQ8iJ9JB5iEw5HsW0bGafS2cbklZw/view"
   },
   {
-    name: "Python Essentials",
-    platform: "UpGrad",
-    date: "Sep 2024",
-    link: "https://drive.google.com/file/d/11roetwDSFVwl3L6K7YtJcaEXwHw6_30d/view"
+    name: "Data Analysis",
+    platform: "Deloitte",
+    date: "Nov 2024",
+    link: "https://drive.google.com/file/d/1aGiM8yEMIGgQtsba1fwpKOrZieLilds8/view"
   },
   {
-    name: "Python(Basic)",
-    platform: "HackerRank",
-    date: "Jan 2025",
-    link: "https://www.hackerrank.com/certificates/38aaf5ded0c8"
-  },
-  {
-    name: "Flipkart Grid 5.0",
-    platform: "Flipkart",
-    date: "Feb 2025",
-    link: "https://drive.google.com/file/d/19seZzg3TSgNhBSqivNItKbthvbXKMPyn/view"
+    name: "Backend",
+    platform: "MongoDB",
+    date: "Oct 2024",
+    link: "https://drive.google.com/file/d/1-iBVccVUgevQJFJu1wvjmq4S7X8IJwcp/view"
   },
   {
     name: "Data Analytics",
@@ -34,12 +28,11 @@ const certifications = [
     link: "https://drive.google.com/file/d/14oI9qynuvUrv5XLutOLiAuWveeV3s365/view?usp=drive_link"
   },
   {
-    name: "Juniper Networks",
+    name: "Juniper Networks – Networking & Cloud Computing",
     platform: "AICTE",
     date: "Apr 2024",
     link: "https://drive.google.com/file/d/1obNqpAMiDCXGhcv9HYsc0RL83uxRyjZQ/view?usp=drive_link"
   },
-
 ];
 
 const Certifications = () => {

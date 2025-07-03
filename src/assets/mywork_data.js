@@ -1,17 +1,17 @@
 const mywork_data = [
-    {
-      title: "Book Store App",
-      link: "https://github.com/kannatinaveena/Bookstore",
-    },
-    {
-      title: "To-Do App",
-      link: "https://github.com/kannatinaveena/TLIST",
-    },
-    {
-      title: "Portfolio Website",
-      link: "https://kannatinaveena.github.io/portfolio/",
-    }
-  ];
+  {
+    title: "HealthAI: Intelligent Healthcare Assistant",
+    link: "https://github.com/kannatinaveena/Health-ai-"
+  },
+  {
+    title: "Online Exam Portal",
+    link: "https://github.com/kannatinaveena/Online-Exam-Portal"
+  },
+  {
+    title: "Movie Recommendation System",
+    link: "https://github.com/kannatinaveena/Movie-Recommendation-System"
+  },
   
-  export default mywork_data;
-  
+];
+
+export default mywork_data;
